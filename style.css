@@ -117,17 +117,9 @@ h5{
 .a-aside-box:hover{
     background-color: rgba(69, 191, 0, .09);
     box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .08);
-
-}
-.top-left-box{
-
+    text-decoration: underline;
 }
 
-.center-left-box{
-}
-
-.bottom-left-box{
-}
 
 .content-center {
     height: 550px;
@@ -140,15 +132,15 @@ h5{
     width: 25%;
 }
 
-.top-right-box, .bottom-right-box {
-    /* height: 250px;
-    background-color: #800026; */
-    width: 100%;
+.a-word-inline{
+    text-decoration: none;
+    color: #99cc33;
+    font-size: 15px;
 }
 
-/* .bottom-right-box {
-    margin-top: 30px;
-} */
+.a-bigger-size{
+    font-size: 25px;
+}
 
 footer {
     height: 100px;
