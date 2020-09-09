@@ -97,7 +97,7 @@ h5{
 
 .white-box{
     min-height: 10px;
-    background: #fff;
+    background-color: #fff;
     margin-bottom: 20px;
     padding: 30px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
@@ -124,10 +124,17 @@ h5{
 
 
 .content-center {
-    height: 550px;
+    min-height: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    border-radius: 5px;
     width: calc(50% - 40px);
-    background-color: #6a0088;
+    background-color: #fff;
     margin: 0 20px;
+    padding: 30px;
+}
+
+#post-picture{
+    width: 100%;
 }
 
 .aside-right-container{
@@ -170,6 +177,10 @@ h5{
 
 .a-bigger-size{
     font-size: 25px;
+}
+
+.a-word-inline:hover{
+    text-decoration: underline;
 }
 
 footer {
