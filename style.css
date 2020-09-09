@@ -56,7 +56,7 @@ li a.a-nav-bar{
     display: inline-block;
     text-decoration: none;
     padding: 15px;
-    color: white;
+    color: #9aada0;
     font-size: 19px;
 }
 
@@ -157,7 +157,7 @@ h5{
     padding: 10px;
     font-size: 17px;
     background-color: #504741;
-    color: #fff;
+    color: #9aada0;
     cursor: pointer;
     border-radius: 5px;
 }
