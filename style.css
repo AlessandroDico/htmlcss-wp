@@ -84,10 +84,25 @@ main {
     float: left;
 }
 
-.aside-left {
+.aside-left-container {
     height: 400px;
     width: 25%;
     background-color: #800026;
+}
+
+.white-box{
+    height: 50px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.top-left-box{
+
+}
+
+.center-left-box{
+}
+
+.bottom-left-box{
 }
 
 .content-center {
@@ -97,19 +112,19 @@ main {
     margin: 0 20px;
 }
 
-.all-aside-right-elements{
+.aside-right-container{
     width: 25%;
 }
 
-.aside-right-top, .aside-right-bottom {
-    height: 250px;
+.top-right-box, .bottom-right-box {
+    /* height: 250px;
+    background-color: #800026; */
     width: 100%;
-    background-color: #800026;
 }
 
-.aside-right-bottom {
+/* .bottom-right-box {
     margin-top: 30px;
-}
+} */
 
 footer {
     height: 100px;
