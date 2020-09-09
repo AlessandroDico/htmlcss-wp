@@ -25,22 +25,49 @@ header {
 }
 
 h1{
-    text-transform: uppercase;
     font-size: 60px;
     color: white;
 }
 
 h2{
-    text-transform: uppercase;
     font-size: 20px;
     color: white;
     font-weight: 100;
-    padding-top: 20px;
+    padding-top: 25px;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 nav{
-    height: 100px;
     background-color: #0090ad;
+    text-align: center;
+    background-color: #504741;
+    margin-bottom: 20px;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 19px;
+}
+
+li a.a-nav-bar:hover{
+    background-color: rgba(0, 0, 0, .4);
+}
+
+li a.a-arrow::after{
+    content: "\25BD";
+    padding-left: 7px;
+    font-size: 12px;
 }
 
 main {
