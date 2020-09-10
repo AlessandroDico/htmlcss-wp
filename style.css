@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
 }
@@ -15,6 +15,7 @@ body{
     margin-top: 50px;
 }
 
+/*_____inizio header + navbar___*/
 header {
     background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg');
     background-repeat: no-repeat;
@@ -24,35 +25,35 @@ header {
     padding: 90px 0;
 }
 
-h1{
+h1 {
     font-size: 60px;
     color: white;
 }
 
-h2{
+h2 {
     font-size: 20px;
     color: white;
     font-weight: 100;
     padding-top: 25px;
 }
 
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
 
-nav{
+nav {
     background-color: #0090ad;
     text-align: center;
     background-color: #504741;
     margin-bottom: 20px;
 }
 
-nav li{
+nav li {
     display: inline-block;
     list-style-type: none;
 }
 
-li a.a-nav-bar{
+li a.a-nav-bar {
     display: inline-block;
     text-decoration: none;
     padding: 15px;
@@ -60,11 +61,11 @@ li a.a-nav-bar{
     font-size: 19px;
 }
 
-li a.a-nav-bar:hover{
+li a.a-nav-bar:hover {
     background-color: rgba(0, 0, 0, .4);
 }
 
-li a.a-arrow::after{
+li a.a-arrow::after {
     content: "\25BD";
     padding-left: 7px;
     font-size: 12px;
@@ -84,18 +85,19 @@ main {
     float: left;
 }
 
+/*____inizio parte colonne di sinistra____*/
 .aside-left-container {
     width: 25%;
 }
 
-h5{
+h5 {
     font-size: 24px;
     color: #504741;
     font-weight: 100;
     margin-bottom: 15px;
 }
 
-.white-box{
+.white-box {
     min-height: 10px;
     background-color: #fff;
     margin-bottom: 20px;
@@ -104,11 +106,11 @@ h5{
     border-radius: 5px;
 }
 
-.white-box ul li{
+.white-box ul li {
     list-style-type: none;
 }
 
-.a-aside-box{
+.a-aside-box {
     display: block;
     text-decoration: none;
     color: #99cc33;
@@ -116,14 +118,14 @@ h5{
     padding: 10px;
 }
 
-.a-aside-box:hover{
+.a-aside-box:hover {
     background-color: rgba(69, 191, 0, .09);
     box-shadow: inset 0px 3px 0px rgba(0, 0, 0, .08);
     text-decoration: underline;
 }
 
-
-.content-center {
+/*__________inizio corpo centrale_______*/
+.content-center  {
     min-height: 10px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
     border-radius: 5px;
@@ -132,34 +134,34 @@ h5{
     margin: 0 20px;
 }
 
-.content-center-with-padding{
+.content-center-with-padding {
     padding: 30px;
 }
 
-h3.post-titile{
+h3.post-titile {
     color: #504741;
     font-size: 40px;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, .1);
     margin-bottom: 20px;
 }
 
-p.post-data{
+p.post-data {
     font-size: 18px;
     color: #aaa;
     margin-bottom: 20px;
 }
 
-#post-picture{
+#post-picture {
     width: 100%;
 }
 
-p.post-paragraph{
+p.post-paragraph {
     font-size: 20px;
     color: #504741;
     line-height: 1.8;
 }
 
-div.post-mini-footer{
+div.post-mini-footer {
     font-size: 18px;
     color: #aaa;
     margin-top: 30px;
@@ -168,36 +170,37 @@ div.post-mini-footer{
     margin-bottom: 100px;
 }
 
-p.post-category, p.post-tags{
+p.post-category, p.post-tags {
     display: inline-block;
     margin-left: 10px;
 }
 
-a.link-post-mini-footer, a.post-data-link, a.post-comments-link{
+a.link-post-mini-footer, a.post-data-link, a.post-comments-link {
     text-decoration: none;
     color: #99cc33;
     font-size: 18px;
 }
 
-a.link-post-mini-footer:hover, a.post-data-link:hover, a.post-comments-link:hover{
+a.link-post-mini-footer:hover, a.post-data-link:hover, a.post-comments-link:hover {
     text-decoration: underline;
 }
 
-hr{
+hr {
     border-color: #504741;
 }
 
-.aside-right-container{
+/*_________inizio parte colonne di destra_____*/
+.aside-right-container {
     width: 25%;
 }
 
-.top-right-box::after{
+.top-right-box::after {
     content: "";
     display: table;
     clear: both;
 }
 
-#search-here{
+#search-here {
     float: left;
     width: calc(70% - 10px);
     margin-right: 10px;
@@ -219,20 +222,21 @@ hr{
     border-radius: 5px;
 }
 
-.a-word-inline{
+.a-word-inline {
     text-decoration: none;
     color: #99cc33;
     font-size: 15px;
 }
 
-.a-bigger-size{
+.a-bigger-size {
     font-size: 25px;
 }
 
-.a-word-inline:hover{
+.a-word-inline:hover {
     text-decoration: underline;
 }
 
+/* ___________inizio footer _______*/
 footer {
     min-height: 10px;
     background-color: #fff;
@@ -241,36 +245,36 @@ footer {
     margin-bottom: 50px;
 }
 
-footer::after{
+footer::after {
     content:"";
     display: table;
     clear: both;
 }
 
-.left-content-footer{
+.left-content-footer {
     float: left;
 }
 
-.right-content-footer{
+.right-content-footer {
     float: right;
 }
 
-.footer-copyright{
+.footer-copyright {
     color: #504741;
     font-size: 14px;
 }
 
-.link-footer{
+.link-footer {
     text-decoration: none;
     color: #99cc33;
     font-size: 14px;
 }
 
-.link-footer:hover{
+.link-footer:hover {
     text-decoration: underline;
 }
 
-.footer-icons .icon{
+.footer-icons .icon {
     font-size: 25px;
     padding: 10px;
     background-color: #ccc;
