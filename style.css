@@ -249,3 +249,27 @@ footer::after{
 .right-content-footer{
     float: right;
 }
+
+.footer-copyright{
+    color: #504741;
+    font-size: 14px;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: #99cc33;
+    font-size: 14px;
+}
+
+.link-footer:hover{
+    text-decoration: underline;
+}
+
+.footer-icons .icon{
+    font-size: 25px;
+    padding: 10px;
+    background-color: #ccc;
+    color: #555;
+    border-radius: 50%;
+    margin-right: 8px;
+}
