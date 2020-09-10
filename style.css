@@ -130,11 +130,56 @@ h5{
     width: calc(50% - 40px);
     background-color: #fff;
     margin: 0 20px;
+}
+
+.content-center-with-padding{
     padding: 30px;
+}
+
+h3.post-titile{
+    color: #504741;
+    font-size: 40px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+}
+
+p.post-data{
+    font-size: 18px;
+    color: #aaa;
+    margin-bottom: 20px;
 }
 
 #post-picture{
     width: 100%;
+}
+
+p.post-paragraph{
+    font-size: 20px;
+    color: #504741;
+    line-height: 1.8;
+}
+
+div.post-mini-footer{
+    font-size: 18px;
+    color: #aaa;
+    margin-top: 30px;
+    background-color: rgba(204, 204, 204, 0.3);
+    padding: 15px;
+}
+
+p.post-category, p.post-tags{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a.link-post-mini-footer, a.post-data-link, a.post-comments-link{
+    text-decoration: none;
+    color: #99cc33;
+    font-size: 18px;
+}
+
+a.link-post-mini-footer:hover, a.post-data-link:hover, a.post-comments-link:hover{
+    text-decoration: underline;
 }
 
 .aside-right-container{
@@ -184,7 +229,23 @@ h5{
 }
 
 footer {
-    height: 100px;
-    background-color: #0090ad;
+    min-height: 10px;
+    background-color: #fff;
     margin-top: 15px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+footer::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.left-content-footer{
+    float: left;
+}
+
+.right-content-footer{
+    float: right;
 }
